@@ -23,7 +23,7 @@ output: html_document
 
 5. melt() and dcast() functions were used to produce means of feature variables for each combination of subjects and activities.
 
-6. write.table() was used to produce "tidydata.txt" file with 180 x 55 dimension. Please use read.table("tidydata.txt") to read back the data for viewing.
+6. write.table() was used to produce "tidydata.txt" file with 180 x 55 dimension. Please use read.table("tidydata.txt", header = TRUE) to read back the data for viewing.
 
 Reference:
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012

@@ -9,7 +9,7 @@ There are four files in this repository:
 1. README.md (this file)
 2. run_analysis.R (This is used to process the data and produce the tidy data set)
 3. CodeBook.md (It contains details about the process to clean up the data. It also contains descriptions of all the variables and data)
-4. tidydata.txt (This is the file asked for by the assignment. It contains the result produced by the run_analysis.R script. Please use read.table("tidydata.txt") to read back the data for viewing.)
+4. tidydata.txt (This is the file asked for by the assignment. It contains the result produced by the run_analysis.R script. Please use read.table("tidydata.txt", header = TRUE) to read back the data for viewing.)
 
 In order to run the R script file, the working directly must contain the following files and folders downloaded and unzipped from the link on course website (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip):
 
