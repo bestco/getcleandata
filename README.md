@@ -1,7 +1,3 @@
-getcleandata
-============
-
-Project work
 ---
 title: "Project work for Coursera Getting and Cleaning Data course"
 date: 2014-08-23
