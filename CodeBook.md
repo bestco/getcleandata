@@ -23,4 +23,4 @@ output: html_document
 
 5. melt() and dcast() functions were used to produce means of feature variables for each combination of subjects and activities.
 
-6. write.table() was used to produce "tidydata.txt"" file with 180 x 55 dimension. 
+6. write.table() was used to produce "tidydata.txt" file with 180 x 55 dimension. Please use read.table("tidydata.txt") to read back the data for viewing.

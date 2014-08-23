@@ -50,5 +50,7 @@ mdat <- melt(dat, id.vars=c("id","activity"), measure.vars = namesub,
              variable.name="measured")
 datmean <- dcast(mdat, id + activity ~ measured, mean)
 
-#output the tidy data to a file which can be read using read.table()
+# Output the tidy data to a file
+# Please use read.table("tidydata.txt") to read back the data for viewing.
 write.table(datmean, file="tidydata.txt")
+
