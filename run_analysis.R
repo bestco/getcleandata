@@ -8,8 +8,8 @@ features <- read.table("features.txt", col.names = c("featurenumber", "featurena
 features$featurename <-  tolower(features$featurename)
 features$featurename <- gsub("-", "", features$featurename)
 features$featurename <- gsub("\\(", "", features$featurename)
-features$featurename <- gsub(")", "", features$featurename)
-features$featurename <- gsub(",", "", features$featurename)
+features$featurename <- gsub("\\)", "", features$featurename)
+features$featurename <- gsub("\\,", "", features$featurename)
 
 # subset to include only those names with "mean" and "std" in them.
 namesubindex <- grep("mean", features$featurename)
